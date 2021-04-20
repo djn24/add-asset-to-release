@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/add-binary-to-release.iml" filepath="$PROJECT_DIR$/.idea/add-binary-to-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/add-asset-to-release.iml" filepath="$PROJECT_DIR$/.idea/add-asset-to-release.iml" />
     </modules>
   </component>
 </project>
