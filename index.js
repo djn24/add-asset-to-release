@@ -26,6 +26,7 @@ const fs = require('fs').promises;
             owner: owner,
             repo: repo,
             release_id: releaseId,
+            name: "aname",
             data: fileContent
         });
 
