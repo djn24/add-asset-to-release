@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/djn24/add-binary-to-release/issues"
   },
-  "homepage": "https://github.com/djn24/add-binary-to-release#readme"
+  "homepage": "https://github.com/djn24/add-binary-to-release#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.7",
+    "@actions/github": "^4.0.0"
+  }
 }
