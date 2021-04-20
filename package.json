@@ -1,0 +1,20 @@
+{
+  "name": "add-binary-to-release",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djn24/add-binary-to-release.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djn24/add-binary-to-release/issues"
+  },
+  "homepage": "https://github.com/djn24/add-binary-to-release#readme"
+}
