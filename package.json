@@ -1,5 +1,5 @@
 {
-  "name": "add-binary-to-release",
+  "name": "add-asset-to-release",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/djn24/add-binary-to-release.git"
+    "url": "git+https://github.com/djn24/add-asset-to-release.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/djn24/add-binary-to-release/issues"
+    "url": "https://github.com/djn24/add-asset-to-release/issues"
   },
-  "homepage": "https://github.com/djn24/add-binary-to-release#readme",
+  "homepage": "https://github.com/djn24/add-asset-to-release#readme",
   "dependencies": {
     "@actions/core": "^1.2.7",
     "@actions/github": "^4.0.0"
