@@ -20,6 +20,7 @@ const fs = require('fs').promises;
         console.log(`Release id = ${releaseId}`);
 
         const fileContent = await fs.readFile(path);
+        console.log(`Read ${fileContent.length} bytes from ${path}`);
 
         await octokit.rest.repos.uploadReleaseAsset({
             owner: owner,
