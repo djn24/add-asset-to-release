@@ -1,6 +1,9 @@
 name: 'Add binary to release'
 description: 'Upload a binary to an already-existing GitHub Release.'
 inputs:
+  token:
+    description: 'GitHub token with permission to upload. The GITHUB_TOKEN provided by a workflow should be enough.'
+    required: true
   path:
     description: 'File to upload. Does not support wildcards.'
     required: true

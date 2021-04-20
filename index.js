@@ -2,8 +2,8 @@ const core = require('@actions/core');
 const github = require('@actions/github');
 
 try {
-    const sourceToken = core.getInput('source-token');
-    const octokit = github.getOctokit(sourceToken);
+    const token = core.getInput('token');
+    const octokit = github.getOctokit(token);
 
     const path = core.getInput('path');
     console.log(`Path = ${path}`);
