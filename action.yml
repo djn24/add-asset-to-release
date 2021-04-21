@@ -1,5 +1,8 @@
 name: 'Add asset to release'
 description: 'Upload an asset, e.g. a binary file, to an already-existing GitHub release.'
+branding:
+  icon: 'arrow-up-circle'
+  color: 'blue'
 inputs:
   token:
     description: 'GitHub token with permission to upload. The GITHUB_TOKEN provided to a workflow should be enough.'
